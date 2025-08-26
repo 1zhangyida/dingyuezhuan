@@ -1,0 +1,9 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "dingyuezhuan"
+main = "src/index.js"
+compatibility_date = "2024-07-24"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "SUBLINK_KV", id = "2c5af142163e4a39a3a82db07131dca8" }
+]
